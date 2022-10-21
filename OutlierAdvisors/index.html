@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outlier Advisors</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body class="white">
+    <!-- START navbar SECTION -->
+
+    
+    <nav class="navbar navbar-expand-lg"> 
+      <!-- dropdown menu when small has disappeared due to deletion of bootstrap. change color -->
+        <a class="navbar-brand" href="#">Outlier Advisors</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                -dropdown example-
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <!-- END navbar SECTION -->
+
+    <!-- START intro SECTION -->
+
+    <section id="projects">
+      <div id="myRadioGroup">
+        <div class="hero-options radio_tabs">
+          <label class="hero-option hero-option-top radio_mark">
+              <br><br><br>
+              <h2>WHAT WE DO:</h2>
+              <input type="radio" name="projects" checked="checked" value="1"/>
+          </label>
+          
+          <label class="hero-option hero-option-middle radio_mark">
+              <br><br><br>
+              <h2>WHO WE ARE:</h2>
+              <input type="radio" name="projects" value="2"/>
+          </label>
+          <label class="hero-option hero-option-bottom radio_mark">
+              <br><br><br>
+              <h2>OUR MISSION:</h2>
+              <input type="radio" name="projects" value="3"/>
+          </label>
+        </div>
+  
+        <div id="Project1" class="desc hero-text">
+            <p>At</p>
+            <h1>OUTLIER ADVISORS</h1>
+            <p>we do stuff all the time. Like big stuff you wouldn't even believe.</p>
+            <p>You have a business? Want that business to be profitable? Of course you do.</p>
+            <button>Hire us</button>
+        </div>
+        <div id="Project2" class="desc hero-text" style="display: none;">
+            <p>At</p>
+            <h1>OUTLIER ADVISORS</h1>
+            <p>we are people.</p>
+            <p>and also animals.</p>
+            <button>Hire us</button>
+        </div>
+        <div id="Project3" class="desc hero-text" style="display: none;">
+          <div>
+            <p>At</p>
+            <h1>OUTLIER ADVISORS</h1>
+            <p>our mission is secret.</p>
+            <p>we are shadow.</p>
+            <button>Hire us</button>
+          </div>
+            
+        </div>
+          
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- END intro SECTION -->
+
+    <!-- START testimonials SECTION -->
+
+    <section id="testimonials" class="big-contain curved-corners small-padding-on-edges sky navy-blue-words">
+      <div class="split small-padding">
+        <div class="fortyleft">
+          <h1 class="section-title">TESTIMONIALS</h1>
+          <h4>What our clients say:</h4>
+        </div>
+        <div id="nda-company-list" class="sixtyright text-center">
+          <!-- <h4>I have worked with:</h4> -->
+          <div class="even-columns">
+            <div class="badge">
+              <img src="pet.png" alt="cartoon pets" />
+              <p>A US top 3 <br>pet retail company</p>
+            </div>
+            <div class="badge">
+              <img src="company.png" alt="cartoon offices" />
+              <p>fortune 500 <br>companies</p>
+            </div>
+            <div class="badge">
+              <img src="technology.png" alt="cartoon offices" />
+              <p>Cutting edge <br>tech companies</p>
+            </div>
+            <div class="badge">
+              <img src="data-management.png" alt="cartoon offices" />
+              <p>Online pet <br>health pioneers</p>
+            </div>
+            <div class="badge">
+              <img src="veterinarian.png" alt="cartoon offices" />
+              <p>Series A <br>start ups</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div id="personal-testimonials" class="text-center small-padding even-columns">
+          <div class="testimonial-box left curved-corners">
+            <h3>company name</h3>
+            <h4>company type</h4>
+            <p>hiring Outlier Advisors is frankly the best thing that could have ever happened to our business. It was about to go under and I'm typing this from a yacht in the Med! Oh excuse me, that's my champagne.</p>
+            <h4>person name</h4>
+          </div>
+          <div class="testimonial-box middle curved-corners">           
+            <h3>company name</h3>
+            <h4>company type</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias labore recusandae consectetur obcaecati molestiae quae a eos quam repellendus veritatis consequatur minima, voluptate ipsam tempora voluptates accusantium modi quaerat neque.
+            </p>
+            <h4>person name</h4>
+          </div>
+          <div class="testimonial-box right curved-corners">
+            <h3>company name</h3>
+            <h4>company type</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio in ipsa, nihil eaque adipisci expedita, quam officia eum itaque, ex iusto et vitae voluptatibus repudiandae blanditiis? Possimus harum dicta eaque!</p>
+            <h4>person name</h4>
+          </div>
+      </div>
+    </section>
+
+    <!-- END testimonials SECTION -->
+
+    <!-- START meet the team SECTION -->
+
+    <section id="meettheteam" class="slate white-font">
+  
+        <div class="split small-padding-top-and-bottom">    
+          <div class="seventyleft">
+            <h1 class="v-small-padding-on-edges white-font section-title">Meet The Team</h1>
+            <br>
+            <div class="contain team-focus split aegean curved-corners swhite-font small-padding">
+              <div class="fortyleft text-center">
+                <img src="candiseanddash.jpg" alt="Avatar">
+                <br><br>
+                <h2>Candise Goodwin</h2>
+                <h3>Founding Partner</h3>
+              </div>
+              <div class="sixtyright small-padding-on-edges">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro cum nulla delectus laudantium a blanditiis iusto possimus veniam tempora et libero quis rem quia dolorem est eligendi, hic incidunt distinctio?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aspernatur illo pariatur accusantium voluptate repellendus nemo quis alias, ab eum, sapiente sed amet recusandae et, eligendi ex eaque incidunt minima!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum obcaecati consequatur, error magnam dolorem voluptatibus adipisci. Similique error itaque doloribus adipisci cum aliquam. Ex hic sit voluptatum, blanditiis esse optio!
+                Laudantium unde deleniti quae officia ipsa consectetur nostrum. Repellendus ullam ipsum atque ut quidem hic veniam sint. Earum beatae quas laudantium, natus similique ullam doloremque autem cumque, sunt cum aut!</p>
+              </div>
+            </div> 
+          </div>
+
+          <div class="thirtyright split team-small white-font">
+            <div class="v-small-padding">
+              <div class="support-team split aegean white-font curved-corners v-small-padding">
+                <img class="thirtyleft" src="candiseanddash.jpg" alt="Avatar"/>
+                <div class="seventyright v-small-padding-on-edges"><h3>Candise Goodwin</h3><p>Founding Partner</p></div>
+              </div>
+              <br>
+              <div class="support-team split aegean curved-corners v-small-padding">
+                <img class="thirtyleft" src="dash.jpg" alt="Avatar"/>
+                <div class="seventyright v-small-padding-on-edges"><h3>Dash Goodwin</h3><p>Chief Ball Fetcher</p></div>
+              </div>
+              <br>
+              <div class="support-team split aegean curved-corners v-small-padding">
+                <img class="thirtyleft" src="snoot.jpg" alt="Avatar"/>
+                <div class="seventyright v-small-padding-on-edges"><h3>Violet Goodwin</h3><p>Lizard Spotter</p></div>
+              </div>
+              <br>
+              <div class="support-team split aegean curved-corners v-small-padding">
+                <img class="thirtyleft" src="gatsby.jpeg" alt="Avatar"/>
+                <div class="seventyright v-small-padding-on-edges"><h3>Gatsby Goodwin</h3><p>Part-Time Box Warmer</p></div>
+              </div>
+              <br>
+              <div class="support-team split aegean curved-corners v-small-padding">
+                <img class="thirtyleft" src="img_avatar.png" alt="Avatar"/>
+                <div class="seventyright v-small-padding-on-edges"><h3>Daisy Goodwin</h3><p>Overseer</p></div>
+              </div>
+              <br>
+            </div>
+          </div>         
+        </div>
+    </section>
+
+    <!-- END meet the team  SECTION -->
+
+    <!-- START whats new SECTION -->
+
+    <section id="whatsnew" class="split">
+      <div id="main-blog" class="contain seventyleft sky curved-corners">
+        <h1>What's New:</h1>
+      <div class="padding">
+        <div class="main-blog blog-post split">
+          <div class="seventyleft main-blog-img">
+            <img class="" src="dogandperson.jpg" alt="dog and a person side by side"/>
+          </div>
+          <div class="blog-words thirtyright v-small-padding">
+            <p class="blog-category">BUSINESS STRATEGY</p>
+            <h3>Have you ever thought about this thing?</h3>
+            <br>
+            <p>Well I have... and I'm a bit of an expert, so buckle up.</p>  
+          </div>
+        </div>
+        <br>
+        <h3>Topics of Interest:</h3>
+        <div class="sub-blog even-columns v-small-padding-top-and-bottom">
+          <div class="blog-option">
+            <img src="mikhail-vasilyev-NodtnCsLdTE-unsplash.jpg" alt="dog and a person side by side"/>
+            <div class="blog-words v-small-padding">
+              <p class="blog-category">BUSINESS</p>
+              <h4>Will your business be able to compete when Jeff Bezos claims space?</h4>
+            </div>
+          </div>
+          <div class="blog-option">
+            <img src="mathew-coulton-zxqaAkkayP8-unsplash.jpg" alt="dog and a person side by side"/>
+            <div class="blog-words v-small-padding">
+              <p class="blog-category">PET FOOD</p>
+              <h4>If you are what you eat, why on Earth do dogs munch on feces?</h4>
+            </div>
+          </div>
+          <div class="blog-option">
+            <img src="sherise-van-dyk-6LS14DBENBQ-unsplash.jpg" alt="dog and a person side by side"/>
+            <div class="blog-words v-small-padding">
+              <p class="blog-category">HEALTH & WELLBEING</p>
+              <h4>An escaped dog won the LA marathon. Should she get the prize money?</h4>
+            </div>
+          </div>
+          <div class="blog-option">
+            <div class="blog-words v-small-padding">
+              <h4>Topics:</h4>
+              <br>
+              <p class="blog-category">PET HAPPINESS</p>
+              <p class="blog-category">PET FOOD</p>
+              <p class="blog-category">BUSINESS</p>
+              <p class="blog-category">HEALTH AND WELLBEING</p>
+              <p class="blog-category">TRENDS</p>
+              <p class="blog-category">DNA TESTING</p>
+              <p class="blog-category">ALL POSTS</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      </div>
+      <div class="contain thirtyright small-padding navy-blue white-font curved-corners">
+        <p class="blog-category">NEWS & EVENTS</p>
+        <h3>Upcoming:</h3>
+        <br>
+        <ul>
+          <li class="upcoming-event">
+            <p>"The Title of the Talk"</p>
+            <h4>Thingy Conference</h4>
+            <p>11/5/22 - 3pm - main hall - Someplace - Florida</p>
+            <p><a>Learn more</a></p>
+          </li>
+        </ul>
+        
+        <br>
+        <h3>Recent News:</h3>
+        <br>
+        <ul>
+          <li class="upcoming-event">
+            <h4>Company Launch</h4>
+            <p>some little explanation</p>
+            <p><a>Learn more</a></p>
+          </li>
+          <li class="upcoming-event">
+            <h4>We did another thing</h4>
+            <p>some little explanation</p>
+            <p><a>Learn more</a></p>
+          </li>
+        </ul>        
+      </div>
+      
+      
+      
+
+    </section>
+
+    <!-- END whats new  SECTION -->
+
+    <!-- START  SECTION -->
+
+    <!-- END   SECTION -->
+
+    <!-- START meet the team SECTION -->
+
+    <!-- END meet the team  SECTION -->
+
+    <!-- START contact SECTION -->
+
+    <section id="contact">
+
+    </section>
+
+    <!-- END contact SECTION -->
+
+
+
+    <!-- START footer SECTION -->
+
+    <section id="footer">
+      <p>© Copyright 2022. Outlier Advisors, Inc.. All rights reserved.</p>
+      <p>Site designed and maintained by Danny Pellatt Freelance</p>
+      <section id="credits">
+        <p>picture credits:</p>
+        <p><a href="https://www.flaticon.com/free-icons/pet" title="pet icons">Pet icons created by Becris - Flaticon</a></p>
+        <p><a href="https://www.flaticon.com/free-icons/company" title="company icons">Company icons created by Linector - Flaticon</a></p>
+        <p><a href="https://www.flaticon.com/free-icons/technology" title="technology icons">Technology icons created by Eucalyp - Flaticon</a></p>
+        <p><a href="https://www.flaticon.com/free-icons/technology" title="technology icons">Technology icons created by Freepik - Flaticon</a></p>
+        <p><a href="https://www.flaticon.com/free-icons/veterinarian" title="veterinarian icons">Veterinarian icons created by photo3idea_studio - Flaticon</a></p>
+        <p><a href="https://unsplash.com/photos/zxqaAkkayP8?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">Dog Food - Matthew Coulton</a></p>
+        <a href="https://unsplash.com/photos/NodtnCsLdTE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">cute cat</a>
+        <a href="https://unsplash.com/photos/6LS14DBENBQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"></a>
+      </section>
+    </section>
+
+
+
+    <!-- END footer SECTION -->
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
